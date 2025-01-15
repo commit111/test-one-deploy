@@ -1,0 +1,7 @@
+services:
+  service:
+    image: nginx:latest
+    ports: 
+      - mode: ingress # specify ports to expose
+        target: 8080
+        published: 8080
